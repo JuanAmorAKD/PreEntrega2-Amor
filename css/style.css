@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Cairo", sans-serif;
+  background-color: red;
+}
+
+/*planteo un mobile first acá:*/
+#grilla {
+  height: 100%;
+  display: grid;
+  grid-template-areas:
+    "header"
+    "nav"
+    "hero"
+    "main"
+    "footer"
+    "player";
+  grid-template-columns: auto;
+  grid-template-rows: 70px 30px 20% auto 1fr 1fr;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    background-color: blue;
+  }
+  #grilla {
+    grid-template-areas:
+      "header header header"
+      "nav nav nav"
+      "hero hero hero"
+      "main main main"
+      "footer footer footer"
+      "player player player";
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 35px 300px auto 90px 70px;
+  }
+}
+/*menu-left {
+  grid-area: menu-left;
+}*/
+header {
+  grid-area: header;
+}
+nav {
+  grid-area: nav;
+}
+.main {
+  grid-area: main;
+}
+footer {
+  grid-area: footer;
+}
+#player {
+  grid-area: player;
+}
+
+header,
+nav,
+.hero,
+.main,
+footer,
+#player {
+  border: 1px solid black;
+}
