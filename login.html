@@ -36,6 +36,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/styleboot.css" />
+    <link rel="stylesheet" href="css/acces.css" />
   </head>
   <!-- End HEAD-->
   <!-- Start BODY-->
@@ -43,24 +44,20 @@
     <header>
       <div class="container-fluid">
         <div class="navbar navbar-expand-lg bg-light align-items-center justify-content-between ">
-          <div class="col-xs-2 col-3 ">
-            <img class="navbar-brand header__logo " src="images/logos/Logo-radios-partidarias-menu-blanco.png">
-          </div>
-          <div class="col-auto d-none d-lg-block">
-            <a href="indexboot.html">Inicio</a>
-            <a href="indexboot.html">Company</a>
-            <a href="indexboot.html">Registrá tu programa</a>
-          </div>
-          <form class="col-auto d-flex d-none d-lg-block" role="header__search">
-            <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          <nav class="col-auto header__leftItems">
+            <a href="index.html"><img class="navbar-brand header__logo" src="images/logos/Logo-radios-partidarias-menu-blanco.png"></a>
+            <a href="index.html">Company</a><a href="index.html">Registrar</a>
+          </nav>
+          <form class="d-flex " role="header__search">
+            <input class="d-none d-lg-block form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+            <button class="btn btn-outline-success d-none d-lg-block" type="submit">Buscar</button>
           </form>
-          <div class="col-3 d-flex header__rightItems px-5">
-            <a href="user.html"><span id="favHeader" class="material-symbols-outlined">
+          <div class="col-auto header__rightItems">
+            <a href="index.html"><span id="favHeader" class="material-symbols-outlined">
                 favorite
               </span></a>
 
-                <a href="user-acces.html"><span class="material-symbols-outlined px-3">
+                <a href="login.html"><span class="material-symbols-outlined">
                     account_circle
                   </span></a>
                 <!--<ul class="userMenu__desplegable">
@@ -78,7 +75,7 @@
         <div class="container">
           <div class="d-flex justify-content-around"><a href="program-week.html"
             >
-            <a href="indexboot.html" id="moreIzq" class="material-symbols-outlined decoration-none">
+            <a href="index.html" id="moreIzq" class="material-symbols-outlined decoration-none">
               arrow_circle_left
             </a>
             <img
@@ -92,55 +89,55 @@
               src="images/escudos/banfield.png"
               alt="Banfield"
           /></a>
-          <a href="indexboot.html"
+          <a href="index.html"
             ><img
               class="navTeamsLogos__logo"
               src="images/escudos/boca.png"
               alt="Boca"
           /></a>
-          <a href="indexboot.html"
+          <a href="index.html"
             ><img
               class="navTeamsLogos__logo"
               src="images/escudos/huracan.png"
               alt="Huracán"
           /></a>
-          <a href="indexboot.html"
+          <a href="index.html"
             ><img
               class="navTeamsLogos__logo"
               src="images/escudos/indep.png"
               alt="Indep"
           /></a>
-          <a href="indexboot.html"
+          <a href="index.html"
             ><img
               class="navTeamsLogos__logo"
               src="images/escudos/lanus.png"
               alt="Lanús"
           /></a>
-          <a href="indexboot.html"
+          <a href="index.html"
             ><img
               class="navTeamsLogos__logo"
               src="images/escudos/river.png"
               alt="River"
           /></a>
-          <a href="indexboot.html"
+          <a href="index.html"
             ><img
               class="navTeamsLogos__logo"
               src="images/escudos/sanlorenzo.png"
               alt="San Lorenzo"
           /></a>
-          <a href="indexboot.html"
+          <a href="index.html"
             ><img
               class="navTeamsLogos__logo"
               src="images/escudos/velez.png"
               alt="Velez"
           /></a>
-          <a href="indexboot.html">
+          <a href="index.html">
             <img
               class="navTeamsLogos__logo"
               src="images/escudos/central.png"
               alt="Rosario Central"
             />
-          </a><a href="indexboot.html" id="moreDer" class="material-symbols-outlined">
+          </a><a href="index.html" id="moreDer" class="material-symbols-outlined">
             arrow_circle_right
           </a>
           </div>
@@ -152,8 +149,8 @@
      
       <main class="container-fluid">
           <!-- inicia formulario-->
-      <div class="row text-center align-items-center" id="accesUser">
-        <fieldset id="formUserAcces">
+      <div class="row d-flex align-items-center" id="accesUser">
+        <fieldset class="col-xxl-4 col-md-8 col-xl-6 text-center" id="formUserAcces">
           <form class="div-content__userAccesForm">
             
             <legend><h2>Ingresar</h2></legend>
@@ -240,9 +237,9 @@
             </div>
         
             <ul class="nav col-md-4 justify-content-end ">
-              <li class="ms-3"><a href="indexboot.html" title=""><i class="fa fa-twitter"></i></a></li>
-              <li class="ms-3"><a href="indexboot.html" title=""><i class="fa fa-facebook"></i></a></li>
-              <li class="ms-3"><a href="indexboot.html" title=""><i class="fa fa-instagram"></i></a></li>
+              <li class="ms-3"><a href="index.html" title=""><i class="fa fa-twitter"></i></a></li>
+              <li class="ms-3"><a href="index.html" title=""><i class="fa fa-facebook"></i></a></li>
+              <li class="ms-3"><a href="index.html" title=""><i class="fa fa-instagram"></i></a></li>
             </ul>
           </footer>
         </div>
@@ -261,13 +258,13 @@
 
             <span class="player__teamName"> Racing Club</span>
           </div>
-          <a href="indexboot.html"
+          <a href="index.html"
             ><img
               class="player__playButton"
               src="images/playbutton.png"
               alt="play"
           /></a>
-          <a href="indexboot.html"
+          <a href="index.html"
             ><img
               class="player__volumenButton"
               src="images/volumenbutton.png"
