@@ -7,7 +7,7 @@ ____________________________________
 #accesUser {
   background-color: violet;
   height: 100vh;
-  background-image: url("/images/mic-radio-hero2.jpg");
+  background-image: url("../images/mic-radio-hero2.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;

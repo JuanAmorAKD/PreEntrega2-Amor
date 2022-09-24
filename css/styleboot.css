@@ -215,7 +215,7 @@ main {
 
   height: 500px;
 
-  background-image: url("/images/fondo-app.jpeg");
+  background-image: url("../images/fondo-app.jpeg");
 
   background-repeat: no-repeat;
   background-size: cover;
